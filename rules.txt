@@ -1,7 +1,12 @@
-# Non-terminals
-!S:=SNP VP ONP
+# Non-terminals (simple example)
+!S:=NP1 VP NP2
+#S:=NP3 VP1
 
 # Terminals
-SNP:=N-[anim;nom]|Adj-[] N-[anim;head;nom]|Pr-[nom]
+NP1:=Adj-[slave] N-[anim;head;nom]
+#|N-[anim;nom]|Pr-[nom]
 VP:=V-[tr]
-ONP:=Pr-[acc]|Adj-[] N-[head;acc]
+NP2:=Pr-[acc]
+#|Adj-[slave] N-[head;acc]
+#NP3:=Pr-[nom]
+#VP1:=V-[tr;refl]
