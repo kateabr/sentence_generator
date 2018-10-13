@@ -1,5 +1,5 @@
-# Non-terminals (with Yoda-style sentence)
-!S:=SNP VP ONP|ONP VP SNP
+# Non-terminals
+!S:=SNP VP ONP
 
 # Terminals
 SNP:=N-[anim;nom]|Adj-[] N-[anim;head;nom]|Pr-[nom]
