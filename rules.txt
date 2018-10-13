@@ -2,6 +2,6 @@
 !S:=SNP VP ONP|ONP VP SNP
 
 # Terminals
-SNP:=N-[anim;nom]|Adj N-[anim;head;nom]|Pr-[nom]
+SNP:=N-[anim;nom]|Adj-[] N-[anim;head;nom]|Pr-[nom]
 VP:=V-[tr]
-ONP:=Pr-[acc]|Adj N-[head;acc]
+ONP:=Pr-[acc]|Adj-[] N-[head;acc]
