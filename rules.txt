@@ -3,10 +3,10 @@
 #S:=NP3 VP1
 
 # Terminals
-NP1:=Adj-[slave] N-[anim;head;nom]
-#|N-[anim;nom]|Pr-[nom]
-VP:=V-[tr]
+NP1:=Pr-[head]
+#|Adj-[slave] N-[anim;head]|N-[anim;head]
+VP:=V-[tr;head]
 NP2:=Pr-[acc]
-#|Adj-[slave] N-[head;acc]
+#|Adj-[slave] N-[head]
 #NP3:=Pr-[nom]
 #VP1:=V-[tr;refl]
