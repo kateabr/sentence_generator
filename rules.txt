@@ -2,6 +2,6 @@
 !S:=NP1 VP NP2
 
 # Terminals
-NP1:=Adj-[slave] N-[anim;head]|N-[anim;head]|Pr-[head]
-VP:=V-[tr;head]
-NP2:=Adj-[slave] N-[head]|Pr-[head]
+NP1:=Pr-[head;anim]|Adj-[slave] N-[anim;head]|N-[anim;head]
+VP:=V-[tr;head;past]
+NP2:=Adj-[slave] N-[head]|N-[head]|Pr-[head]
