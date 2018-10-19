@@ -1,7 +1,8 @@
 # Non-terminals (simple example)
-!S:=NP1 VP NP2
+!S:=NP1 VP2|NP1 VP1 NP2
 
 # Terminals
 NP1:=Pr-[head;anim]|Adj-[slave] N-[anim;head]|N-[anim;head]
-VP:=V-[tr;head;past]
+VP1:=V-[tr;head]
 NP2:=Adj-[slave] N-[head]|N-[head]|Pr-[head]
+VP2:=V-[intr;head]
